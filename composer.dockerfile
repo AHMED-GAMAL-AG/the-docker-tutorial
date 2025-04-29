@@ -1,6 +1,6 @@
 FROM composer:2
 
-ENV COMPOSER_USER=laravel
-ENV COMPOSER_GROUP=laravel
+ENV COMPOSERUSER=laravel
+ENV COMPOSERGROUP=laravel
 
-RUN adduser -g ${COMPOSER_GROUP} -s /bin/sh -D ${COMPOSER_USER}
+RUN adduser -g ${COMPOSERGROUP} -s /bin/sh -D ${COMPOSERUSER}
